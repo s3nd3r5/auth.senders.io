@@ -3,7 +3,7 @@
 An authentication service for senders.io
 
 
-![0.0.0-SNAPSHOT](https://api.shippable.com/projects/5589afabedd7f2c052339c59/badge/master)
+![0.0.0-SNAPSHOT](https://api.shippable.com/projects/55c0a2a99ad8e50b00cc63c6/badge/master)
 
 ## API
 
