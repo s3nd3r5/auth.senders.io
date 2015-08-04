@@ -4,8 +4,8 @@
   "description": "An auth server for senders.io",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha",
-    "start":"node index.js"
+    "test":  "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha",
+    "start": "node index.js"
   },
   "author": "Stephen Enders <smenders@gmail.com>",
   "license": "MIT",
@@ -15,6 +15,7 @@
     "jsonwebtoken": "^5.0.4"
   },
   "devDependencies": {
+    "istanbul": "^0.3.17",
     "mocha": "^2.2.5",
     "rewire": "^2.3.4",
     "should": "^7.0.2",

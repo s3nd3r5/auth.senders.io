@@ -2,6 +2,9 @@
 
 An authentication service for senders.io
 
+
+![0.0.0-SNAPSHOT](https://api.shippable.com/projects/5589afabedd7f2c052339c59/badge/master)
+
 ## API
 
 ###GET /  and /ping
