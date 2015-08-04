@@ -1,9 +1,0 @@
-# language setting
-language: node_js
-
-# version numbers
-node_js:
-  - "0.12"
-
-script:
- - npm test
