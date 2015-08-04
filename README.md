@@ -2,14 +2,13 @@
 
 An authentication service for senders.io
 
-
-![0.0.0-SNAPSHOT](https://api.shippable.com/projects/55c05694edd7f2c05293e451/badge/master)
+[![Build Status](https://travis-ci.org/s3nd3r5/auth.senders.io.svg?branch=master)](https://travis-ci.org/s3nd3r5/auth.senders.io)
 
 ## API
 
 ###GET /  and /ping
 
-Ping route
+Ping route responds with 200 `"pong"`
 
 ###POST /api/v1/login
 
@@ -37,3 +36,6 @@ Verification route. Accepts json.
 ```
 
 Username must be passed in header, as well as optional token regen flag.
+
+## LICENSE
+MIT
