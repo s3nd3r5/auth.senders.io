@@ -1,0 +1,24 @@
+{
+  "name": "auth",
+  "version": "0.0.0-SNAPSHOT",
+  "description": "An auth server for senders.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start":"node index.js"
+  },
+  "author": "Stephen Enders <smenders@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^5.0.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "rewire": "^2.3.4",
+    "should": "^7.0.2",
+    "sinon": "^1.15.4",
+    "supertest": "^1.0.1"
+  }
+}
